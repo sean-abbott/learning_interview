@@ -1,0 +1,30 @@
+Tasks:
+
+This test is to observe you learning something new.  If you have used lua before, please let us know, as that will make this process somewhat invalid.  Follow each of the steps below.  If something is not clear, then please let us know so we can make this work better in the future.  For the coding tests, your interviewer will tell you how this will be "graded" when you're ready.  We don't necessarily expect you to be able to finish these tests in the hour your have, but that's really not the point.  We want to see how you tackle unfamiliar territory.
+
+* Install lua5.1
+* Install luaunit
+
+* Code a solution for this problem in lua 
+
+The parameter weekday is true if it is a weekday, and the parameter vacation is true if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.
+
+sleep_in(false, false) -> true
+sleep_in(true, false) -> false
+sleep_in(false, true) -> true
+
+* (ask your interviewer to test for you)
+
+* Code a solution for this problem in lua:
+
+Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
+
+last2('hixxhi') -> 1
+last2('xaxxaxaxx') -> 1
+last2('axxxaaxx') -> 2
+
+* (ask your interviewer to test for you)
+
+* Your interviewer will point you to a log file.  Using lua, count how many lines have the word "WARN" on them.
+
+* Now, identify and print all the unique IP addresses in the log file
